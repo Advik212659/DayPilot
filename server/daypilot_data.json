@@ -1,0 +1,179 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Review Q4 Strategy Plan",
+      "description": "Check milestone deliverables and budget allocations.",
+      "dueDate": "2026-10-24",
+      "dueTime": "14:00",
+      "priority": "High",
+      "category": "Work",
+      "isCompleted": false,
+      "subtasks": [
+        {
+          "id": "s1",
+          "title": "Inspect metrics",
+          "isDone": true
+        },
+        {
+          "id": "s2",
+          "title": "Draft executive summary",
+          "isDone": false
+        }
+      ],
+      "createdAt": 1792821934688
+    },
+    {
+      "id": 2,
+      "title": "Prepare Daypilot Demo Presentation",
+      "description": "Highlight conversational intelligence, voice support, and scheduled automations.",
+      "dueDate": "2026-10-24",
+      "dueTime": "17:00",
+      "priority": "Urgent",
+      "category": "Work",
+      "isCompleted": false,
+      "subtasks": [
+        {
+          "id": "s3",
+          "title": "Record voice demo",
+          "isDone": false
+        },
+        {
+          "id": "s4",
+          "title": "Outline key features",
+          "isDone": true
+        }
+      ],
+      "createdAt": 1792818334688
+    },
+    {
+      "id": 3,
+      "title": "Daily 30-min Reading & Knowledge Synthesis",
+      "description": "Read latest AI systems paper and capture insights in knowledge base.",
+      "dueDate": "2026-10-24",
+      "dueTime": "20:00",
+      "priority": "Medium",
+      "category": "Study",
+      "isCompleted": false,
+      "subtasks": [],
+      "createdAt": 1792814734688
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Product Strategy Sync",
+      "description": "Discuss roadmap, user feedback, and AI agent performance.",
+      "date": "2026-10-24",
+      "startTime": "10:30",
+      "endTime": "11:30",
+      "location": "Google Meet",
+      "category": "Meeting",
+      "createdAt": 1792739134688
+    },
+    {
+      "id": 2,
+      "title": "Deep Focus: Architecture & Logic",
+      "description": "Uninterrupted focus session for tool calling and data workflows.",
+      "date": "2026-10-24",
+      "startTime": "14:00",
+      "endTime": "16:00",
+      "location": "Desk",
+      "category": "Focus",
+      "createdAt": 1792739134688
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Daypilot AI Launch",
+      "description": "Personal AI copilot for tasks, calendar management, and daily automation.",
+      "category": "Work",
+      "deadline": "2026-11-01",
+      "milestones": [
+        {
+          "id": "m1",
+          "title": "Core Assistant & Chat",
+          "isDone": true
+        },
+        {
+          "id": "m2",
+          "title": "Task & Calendar Engine",
+          "isDone": true
+        },
+        {
+          "id": "m3",
+          "title": "Voice & Automations",
+          "isDone": true
+        }
+      ],
+      "colorHex": "#38BDF8",
+      "createdAt": 1792739134688
+    }
+  ],
+  "memories": [
+    {
+      "id": 1,
+      "category": "Preferences",
+      "content": "Prefers concise, actionable summaries with bullet points and clear priority labels.",
+      "isActive": true,
+      "createdAt": 1792739134688
+    },
+    {
+      "id": 2,
+      "category": "Workflows",
+      "content": "Morning routine includes reviewing high-priority tasks and calendar conflicts before 10 AM.",
+      "isActive": true,
+      "createdAt": 1792739134688
+    },
+    {
+      "id": 3,
+      "category": "Goals",
+      "content": "Focused on launching the Daypilot AI Assistant project and maintaining daily deep work sessions.",
+      "isActive": true,
+      "createdAt": 1792739134688
+    }
+  ],
+  "knowledge": [
+    {
+      "id": 1,
+      "title": "Daypilot Operating Principles",
+      "content": "1. Always ground actions in real user data.\n2. Respect privacy and memory control.\n3. Make multi-step tasks seamless.\n4. Keep daily plans focused on high-impact priorities.",
+      "category": "Ideas",
+      "tags": "ai, principles, guidelines",
+      "isPinned": true,
+      "createdAt": 1792739134688
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "title": "Review high-priority tasks and calendar schedule",
+      "date": "2026-10-24",
+      "time": "09:00",
+      "recurrence": "Daily",
+      "priority": "Normal",
+      "isCompleted": false,
+      "createdAt": 1792739134688
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "title": "Welcome to Daypilot",
+      "createdAt": 1792739134688,
+      "updatedAt": 1792825534688
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "role": "assistant",
+      "content": "Good day! I am **Daypilot**, your personal AI assistant. I'm connected to your schedule, tasks, projects, and personalized memories. How can I help you organize, plan, or create today?",
+      "toolName": null,
+      "toolPayload": null,
+      "timestamp": 1792739134688
+    }
+  ]
+}

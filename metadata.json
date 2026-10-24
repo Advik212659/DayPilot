@@ -1,0 +1,6 @@
+{
+  "name": "Daypilot AI",
+  "description": "Your intelligent personal AI assistant to plan, organize, manage tasks, schedule, create content, remember context, and automate daily life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
