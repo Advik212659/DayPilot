@@ -7,7 +7,7 @@
     "start": "node server/server.js",
     "server": "node server/server.js",
     "client": "npm --prefix client run dev",
-    "build": "npm --prefix client install && npm --prefix client run build",
+    "build": "npm --prefix client install && chmod +x client/node_modules/.bin/* && npm --prefix client run build",
     "install-all": "npm install && npm --prefix client install",
     "dev": "node server/server.js"
   },
