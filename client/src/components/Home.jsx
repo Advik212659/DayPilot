@@ -38,7 +38,7 @@ export default function Home({
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
           <div>
             <h1 style={{ fontSize: '28px', fontWeight: '800', letterSpacing: '-0.5px', color: '#fff' }}>
-              {briefing?.greeting || 'Welcome back'}, Vaishnavi
+              {briefing?.greeting || 'Welcome back'}, User
             </h1>
             <p style={{ color: 'var(--text-muted)', fontSize: '14px', marginTop: '4px' }}>
               {briefing?.dateText || 'Today'} • Your personal AI workspace is synchronized
